@@ -1,3 +1,5 @@
+/*A rule for this file: seperate each pages' styling elements by placing comment before each styling */
+
 .full-page {
     height: 115vh;
     width: 100%;
@@ -5,6 +7,7 @@
 	background-image: url(E2Fjd5.jpg);
 	background-size: cover;
     position: absolute;
+	background-attachment: scroll;
 }
 
 .navigation-bar{
@@ -283,4 +286,37 @@ input {
 	margin: 0 5px;
 	height: 40px;
 	width: 40px;
+}
+
+/* Home page styling */
+.saying{
+	margin-right: auto;
+    margin-left: auto;
+	height: 10;
+	width: 500px;
+	padding: 100px 10px;
+	font-size: 20px;
+    text-align: center;
+	/* color : #368ef3; */
+	border: 2px solid #010101;
+	background-color: #fffefe;
+}
+
+.review-content{
+	text-align: center;
+	font-size: 100px;
+	color: #010101;
+}
+
+.intro{
+	margin-right: auto;
+    margin-left: auto;
+	width: 1000px;
+	padding: 100px 10px;
+}
+
+ul.review-items{
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
 }
